@@ -1,1 +1,1 @@
-include */*.mk
+include package/SPE/*/*.mk
