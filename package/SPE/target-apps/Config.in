@@ -1,0 +1,3 @@
+config BR2_PACKAGE_SPE_TARGET_APPS
+	bool "Examples of target apps"
+	default n
