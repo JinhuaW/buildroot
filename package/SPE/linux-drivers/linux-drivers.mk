@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-LINUX_DRIVERS_VERSION = 2c0fb33ed56ca1379ff03ffb8723b3f18f362eee
+LINUX_DRIVERS_VERSION = 3b619b8863716c17680d13fcbe440aa53c19c976
 LINUX_DRIVERS_SITE = https://github.com/JinhuaW/linux_drivers.git
 LINUX_DRIVERS_SITE_METHOD = git
 LINUX_DRIVERS_INSTALL_MOD_DIR = spe
