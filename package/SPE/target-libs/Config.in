@@ -1,0 +1,8 @@
+config BR2_PACKAGE_TARGET_LIBS
+	bool "Examples of target libs"
+	default n
+
+if BR2_PACKAGE_TARGET_LIBS
+config BR2_PACKAGE_TARGET_LIBS_THREAD_POOL
+	bool "Build the thread pool library"
+endif
