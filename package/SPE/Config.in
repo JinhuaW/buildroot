@@ -1,3 +1,4 @@
 source package/SPE/linux-drivers/Config.in
 source package/SPE/target-apps/Config.in
 source package/SPE/target-libs/Config.in
+source package/SPE/target-test-apps/Config.in

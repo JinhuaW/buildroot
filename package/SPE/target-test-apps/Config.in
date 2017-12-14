@@ -1,0 +1,3 @@
+config BR2_PACKAGE_TARGET_TEST_APPS
+	bool "Examples of target test apps"
+	default n
