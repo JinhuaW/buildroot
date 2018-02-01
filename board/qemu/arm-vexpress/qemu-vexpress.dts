@@ -455,6 +455,12 @@
 					clock-names = "uartclk", "apb_pclk";
 				};
 
+				testirq@09000 {
+					compatible = "spe,testirq";
+					interrupts = <0x5>;
+					reg = <0x9000 0x1000>;
+				};
+
 				uart@0a000 {
 					compatible = "arm,pl011", "arm,primecell";
 					reg = <0xa000 0x1000>;
