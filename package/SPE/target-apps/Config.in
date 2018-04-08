@@ -1,3 +1,4 @@
 config BR2_PACKAGE_TARGET_APPS
 	bool "Examples of target apps"
+	select BR2_PACKAGE_LIBUIO
 	default n
