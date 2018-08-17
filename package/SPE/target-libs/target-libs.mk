@@ -19,17 +19,14 @@ TARGET_LIBS_INSTALL_TARGETS += install_thread_pool
 endif
 
 define TARGET_LIBS_BUILD_CMDS
-	@echo "building ========================================="
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) $(TARGET_LIBS_MAKE_OPTS) -C $(@D) $(TARGET_LIBS_BUILD_TARGETS)
 endef
 
 define TARGET_LIBS_INSTALL_TARGET_CMDS
-	@echo "installing ========================================="
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) $(TARGET_LIBS_MAKE_OPTS) -C $(@D) $(TARGET_LIBS_INSTALL_TARGETS)
 endef
 
-define ISAM_LINUX_TARGET_LIBS_INSTALL_STAGING_CMDS
-	@echo "installing  staging========================================="
+define TARGET_LIBS_INSTALL_STAGING_CMDS
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) $(TARGET_LIBS_MAKE_OPTS) -C $(@D) $(TARGET_LIBS_INSTALL_TARGETS)
 endef
 
