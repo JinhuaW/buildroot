@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-TARGET_TEST_APPS_VERSION = 2f3c3341c31ba2c2476e8f739a056e37d6d6934a
+TARGET_TEST_APPS_VERSION = 8534462d763bdfb78cb3dc082bad97945da041c8
 TARGET_TEST_APPS_SITE = https://github.com/JinhuaW/target-test-apps.git 
 TARGET_TEST_APPS_SITE_METHOD = git
 
