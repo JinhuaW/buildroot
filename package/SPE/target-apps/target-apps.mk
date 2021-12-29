@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-TARGET_APPS_VERSION = 8d223831b43cfa1d025d5ecf677e50da5fe02736
+TARGET_APPS_VERSION = 18b2f725151eea6297e3b3f286b8290afb884747 
 TARGET_APPS_SITE = https://github.com/JinhuaW/target-apps.git 
 TARGET_APPS_SITE_METHOD = git
 
